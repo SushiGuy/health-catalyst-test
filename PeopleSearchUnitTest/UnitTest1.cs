@@ -1,13 +1,23 @@
-using System;
-using Xunit;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PeopleSearch.Models;
 
 namespace PeopleSearchUnitTest
 {
-    public class UnitTest1
+    [TestClass]
+    public class ModelTests
     {
-        [Fact]
-        public void Test1()
+        [TestMethod]
+        public void PersonTest()
         {
+            Person testPerson = new Person
+            {
+                PersonId = 123,
+                Address = "123 S St",
+                Age = 10,
+                FullName = "Michael Garen",
+                Interests = "Soccer and pizza"
+            };
+            Assert.IsNotNull(testPerson);
         }
     }
 }
