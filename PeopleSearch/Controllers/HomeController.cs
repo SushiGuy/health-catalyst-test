@@ -19,7 +19,7 @@ namespace PeopleSearch.Controllers
             return View();
         }
 
-        public IActionResult _PersonList(string searchValue = null)
+        public IActionResult SearchResult(string searchValue = null)
         {
             List<Person> personList;
             if (string.IsNullOrEmpty(searchValue))

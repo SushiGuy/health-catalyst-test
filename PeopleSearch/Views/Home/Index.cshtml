@@ -6,7 +6,7 @@
 
 <script>
     $(function () {
-        $('#peopleList').load('@Url.Action("_PersonList", "Home")');
+        $('#peopleList').load('@Url.Action("SearchResult", "Home")');
         $('#searchValue').on('keyup', function () {
             if ($(this).val() == '') {   //reset values
                 preSearch();
@@ -29,7 +29,7 @@
         $.ajax({
 
                 method: 'POST',
-                url: '@Url.Action("_PersonList", "Home")',
+                url: '@Url.Action("SearchResult", "Home")',
                 data: $('#myForm').serialize()
             })
             .done(function (retData) {
@@ -59,7 +59,7 @@
 <h1>People</h1>
 
 <div id="peopleList">
-    @*@Html.Partial("~/Views/Home/_PersonList.cshtml", Model)*@
+
 </div>
 
 <div id="errorMessage" style="display: none;">
