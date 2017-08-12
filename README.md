@@ -1,7 +1,8 @@
 # health-catalyst-test
 Take Home Test from Health Catalyst for Senior Software Engineer position
 
-The People Search Application
+*People Search Application*
+![People Search Application][appscreenshot]
 
 *Business Requirements*
 - The application accepts search input in a text box and then displays in a
@@ -19,6 +20,8 @@ The People Search Application
 - Unit Tests for appropriate parts of the application
 
 *Notes*
-- When running for the first time you may need to open Package Manager Console and run
--- Add-Migration InitialCreate
--- Update-Database
+When running for the first time you may need to open Package Manager Console and run
+- Add-Migration InitialCreate
+- Update-Database
+
+[appscreenshot]: https://github.com/SushiGuy/health-catalyst-test/blob/master/PeopleSearch/PeopleSearchScreenshot.PNG?raw=true "Web App Screenshot"
