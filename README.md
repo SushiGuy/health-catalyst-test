@@ -1,8 +1,7 @@
 # health-catalyst-test
 Health Catalyst take home test, Senior Software Engineer
 
-*People Search Application*
-![People Search Application][appscreenshot]
+**People Search Application**
 
 *Business Requirements*
 - The application accepts search input in a text box and then displays in a
@@ -19,9 +18,17 @@ Health Catalyst take home test, Senior Software Engineer
 - Use Entity Framework Code First to talk to the database
 - Unit Tests for appropriate parts of the application
 
-*Notes*
-When running for the first time you may need to open Package Manager Console and run
-- Add-Migration InitialCreate
-- Update-Database
+*Tooling*
+- .NET Core
+- Moq
+- MSTest
+- Visual Studio 2017 Community Edition
+
+*Key Packages*
+- Microsoft.AspNetCore
+- Microsoft.EntityFrameworkCore
+
+*Screenshot*
+![People Search Application][appscreenshot]
 
 [appscreenshot]: https://github.com/SushiGuy/health-catalyst-test/blob/master/PeopleSearch/PeopleSearchScreenshot.PNG?raw=true "Web App Screenshot"
