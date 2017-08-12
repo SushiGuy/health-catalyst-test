@@ -1,5 +1,4 @@
 # health-catalyst-test
-Health Catalyst take home test, Senior Software Engineer
 
 **People Search Application**
 
